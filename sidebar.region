@@ -1,7 +1,3 @@
-<section id="content_split">
- {squarespace.main-content}
-</section>
-
 <aside id="sidebar">
   <squarespace:block-field id="sidebarBlocks" />
 </aside>
