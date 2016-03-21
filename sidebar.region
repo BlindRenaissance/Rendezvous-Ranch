@@ -106,7 +106,7 @@ index "}{.section collections}{.section 0}{.equal? typeName "gallery
             {.end} {.end}
 
             <main id="page" role="main">
-                <div id="content" class="main-content" data-content-field="main-content" data-collection-id="{collection.id}"
+                <div id="content-s" class="main-content" data-content-field="main-content" data-collection-id="{collection.id}"
                 {.equal? collection.typeName "index"}{.or}data-edit-main-image="Banner"
                 {.end}>
 
@@ -154,6 +154,11 @@ index "}{.section collections}{.section 0}{.equal? typeName "gallery
                     </div>
                     {.end}{.end}{.end}{.end} {.end} {squarespace.main-content}
                 </div>
+<!-- sidebar -->
+                <aside id="sidebar">
+                    <squarespace:block-field id="sidebarBlocks" />
+                </aside>
+<!-- sidebar -->
             </main>
 
             <div id="preFooter">
@@ -213,9 +218,3 @@ index "}{.section collections}{.section 0}{.equal? typeName "gallery
 </body>
 
 </html>
-
-<!--
-<aside id="sidebar">
-    <squarespace:block-field id="sidebarBlocks" />
-</aside>
--->
