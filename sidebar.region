@@ -156,9 +156,9 @@ index "}{.section collections}{.section 0}{.equal? typeName "gallery
                 </div>
 <!-- sidebar -->
                 <div id="sidebar-wrapper">
-                    <aside id="sidebar">
+                    <div id="sidebar">
                       <squarespace:block-field id="sidebarBlocks" />
-                    </aside>
+                    </div>
                 </div>
 <!-- sidebar -->
             </main>
